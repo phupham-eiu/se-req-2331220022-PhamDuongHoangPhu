@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:08:27.850Z",
+  "savedAt": "2026-05-28T08:20:05.857Z",
   "groups": [
     {
       "id": "afae4639-6f6f-4c23-afd0-91f594d61caa",
@@ -17,7 +17,18 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "319a3423-720a-4e39-9305-7c1e1c7c90cb",
+      "title": "US001: Manage Safe Exchange Zones",
+      "description": "As a Campus Administrator, I want to manage and update the list of designated \"Safe Exchange Zones\", so that students always have access to secure, pre-approved meetup locations.\nAcceptance Criteria:\nPass: The administrator can add, edit, or remove locations from the authorized Safe Exchange Zones management panel.\nPass: Updated locations immediately reflect in the selection options available to students during the chat initialization process.",
+      "groupId": "c00aef3d-c973-4ad1-ae98-5c773067456a",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu Pham"
+    }
+  ],
   "analysis": {
     "ambiguity1": "\"Can I just scan the barcode with my phone camera?\" The requirement mentions scanning a barcode but lacks technical details on the subsequent system behavior. It does not specify whether the app needs to integrate with an external database (e.g., Google Books API) to automatically fetch and populate the textbook's title and author, or how the system should handle unrecognized barcodes.",
     "ambiguity2": "\"The app should force users to select a safe zone before they can chat.\" It is unclear how \"safe zones\" are populated and managed within the system. Does the app provide a hardcoded dropdown list of pre-approved locations managed by an administrator, or does it use location services/maps? Additionally, it is vague whether selecting the zone forms a binding meeting agreement or merely a suggestion to initialize the chat.",
