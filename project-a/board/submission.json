@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:15:34.234Z",
+  "savedAt": "2026-05-28T08:16:12.266Z",
   "groups": [
     {
       "id": "b69cb8e1-825f-422a-89c6-ee0e28d654a5",
@@ -52,6 +52,16 @@
       "id": "796a4e05-c235-411c-9c4d-3393beb22ce6",
       "title": "US004: Prevent Adding Full Classes",
       "description": "As a Student registering for the upcoming semester, I want the system to block me from adding full classes, so that I don't waste time planning an impossible schedule.\nAcceptance Criteria:\nPass: The system queries the live database capacity when a student attempts to add a course for the active registration period.\nPass: The system disables the \"Add\" button and displays a \"Class Full\" message if the capacity is 0.",
+      "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu Pham"
+    },
+    {
+      "id": "23914f53-4d7e-4d4f-8a54-d296831e3dc8",
+      "title": "US005: 4-Year Roadmap Planning",
+      "description": "As a Student, I want to add courses to future semesters regardless of current capacity, so that I can plan my entire 4-year academic roadmap.\nAcceptance Criteria:\nPass: The system allows adding courses to terms beyond the immediate next semester without checking live seat limits.\nPass: The system successfully saves the long-term plan to the student's profile.",
       "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
       "status": "todo",
       "type": "User Story",
