@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:01:04.218Z",
+  "savedAt": "2026-05-28T08:02:10.762Z",
   "groups": [
     {
       "id": "b69cb8e1-825f-422a-89c6-ee0e28d654a5",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "\"The system needs to stop them from even asking.\" This requirement lacks specifics on the implementation method. It does not define how the system should restrict the user. Should the UI completely hide courses for which the student lacks prerequisites, disable/grey out the \"add course\" button, or allow the selection but immediately display a warning prompt?",
     "ambiguity2": "\"drag and drop classes into a calendar to see if they fit.\" The term \"fit\" lacks a technical definition. It is unclear what conditions must be met for a class to \"fit\". Does it mean there are strictly no time schedule overlaps, that all prerequisite conditions are fulfilled, or that the schedule stays within the maximum credit load limits for the semester?",
-    "conflictSolution": "",
+    "conflictSolution": "There is a direct contradiction between the Registrar and the Head of Advising. The Registrar wants to prevent students from adding full classes to their roadmap, while the Advising Head wants students to freely plan 4 years ahead (a timeframe where class capacities are completely unknown). Clearly separate the system's features into \"Planning Mode\" and \"Registration Mode\". For future semesters (Planning Mode), allow students to freely add courses as \"projected placeholders\" without checking class capacity. However, when building a schedule for the immediate upcoming semester (Registration Mode), the system will strictly check live database capacities; if a class is full, it will block the addition or offer a waitlist option.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
