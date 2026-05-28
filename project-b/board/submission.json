@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:22:19.425Z",
+  "savedAt": "2026-05-28T08:22:57.218Z",
   "groups": [
     {
       "id": "afae4639-6f6f-4c23-afd0-91f594d61caa",
@@ -52,6 +52,16 @@
       "id": "f5c1dadc-d5d8-4836-ae0b-07bec53b6ff3",
       "title": "US004: Textbook Barcode Scanning",
       "description": "As a Student selling textbooks, I want to scan the barcode with my phone camera, so that I can automatically populate the item details without manual typing.\nAcceptance Criteria:\nPass: The app successfully requests permission and opens the smartphone camera to scan a standard ISBN barcode.\nPass: The system correctly parses the scanned barcode and automatically populates the textbook's Title and Author fields using an integrated database.",
+      "groupId": "c00aef3d-c973-4ad1-ae98-5c773067456a",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu Pham"
+    },
+    {
+      "id": "d0ff2d99-ae12-4f6a-ab9c-a9dcaeefcc67",
+      "title": "US005: Item Auction System",
+      "description": "As a Student selling items, I want to list my items for auction, so that I can sell to the highest bidder instead of a fixed price.\nAcceptance Criteria:\nPass: The seller can select \"Auction\" as a listing type, then input a starting price and an auction expiration duration.\nPass: Other verified students can place incremental bids, and the system blocks any bid that is lower than or equal to the current highest bid.",
       "groupId": "c00aef3d-c973-4ad1-ae98-5c773067456a",
       "status": "todo",
       "type": "User Story",
