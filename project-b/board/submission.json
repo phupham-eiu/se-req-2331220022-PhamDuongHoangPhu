@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:07:41.114Z",
+  "savedAt": "2026-05-28T08:08:27.850Z",
   "groups": [
     {
       "id": "afae4639-6f6f-4c23-afd0-91f594d61caa",
@@ -22,8 +22,8 @@
     "ambiguity1": "\"Can I just scan the barcode with my phone camera?\" The requirement mentions scanning a barcode but lacks technical details on the subsequent system behavior. It does not specify whether the app needs to integrate with an external database (e.g., Google Books API) to automatically fetch and populate the textbook's title and author, or how the system should handle unrecognized barcodes.",
     "ambiguity2": "\"The app should force users to select a safe zone before they can chat.\" It is unclear how \"safe zones\" are populated and managed within the system. Does the app provide a hardcoded dropdown list of pre-approved locations managed by an administrator, or does it use location services/maps? Additionally, it is vague whether selecting the zone forms a binding meeting agreement or merely a suggestion to initialize the chat.",
     "conflictSolution": "The University Legal Team explicitly states the app cannot process payments, but the Student Union President wants the app to collect a 2% transaction fee from sales. The system cannot automatically extract a percentage if it does not act as the payment processor. Adhere strictly to the Legal Team's constraint by not processing direct peer-to-peer payments. To satisfy the Student Union's funding goal, pivot from a per-transaction fee to a flat \"premium listing fee\" or a small per-semester subscription model powered by an approved external third-party vendor (like Stripe) that operates completely outside the university's financial liability.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "The system must restrict account creation and login access exclusively to users holding a valid \".edu\" university email address.",
+    "nfr2": "The application must provide an intuitive mobile interface that allows users to quickly scan item barcodes using their smartphone cameras to minimize manual data entry.",
+    "nfr3": "The system must enforce safety protocols by requiring users to explicitly agree upon a designated \"Safe Exchange Zone\" before peer-to-peer communication features are unlocked."
   }
 }
