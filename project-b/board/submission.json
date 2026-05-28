@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:20:42.530Z",
+  "savedAt": "2026-05-28T08:21:21.145Z",
   "groups": [
     {
       "id": "afae4639-6f6f-4c23-afd0-91f594d61caa",
@@ -32,6 +32,16 @@
       "id": "148f48eb-9752-498d-a0c9-ed3da7f68804",
       "title": "US002: Exclusive .edu Domain Registration",
       "description": "As a Student, I want to create an account using my valid university \".edu\" email, so that I can access an exclusive campus-only marketplace.\nAcceptance Criteria:\nPass: The system allows registration only if the provided email domain ends strictly with \".edu\".\nPass: The system rejects non-.edu emails and displays an error message blocking the account creation.",
+      "groupId": "c00aef3d-c973-4ad1-ae98-5c773067456a",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu Pham"
+    },
+    {
+      "id": "be8223bb-c714-49b5-a477-c0d72d99c49d",
+      "title": "US003: Mandatory Safe Zone Selection for Chat",
+      "description": "As a Student, I want the app to force the selection of a safe exchange zone before I can chat with a buyer/seller, so that my physical meetup remains secure.\nAcceptance Criteria:\nPass: The chat interface between a buyer and seller remains completely locked until a \"Safe Exchange Zone\" is selected from the pre-approved list.\nPass: The selected meeting location is clearly pinned and visible at the top of the chat window once unlocked.",
       "groupId": "c00aef3d-c973-4ad1-ae98-5c773067456a",
       "status": "todo",
       "type": "User Story",
