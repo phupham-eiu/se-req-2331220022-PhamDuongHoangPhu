@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:20:05.857Z",
+  "savedAt": "2026-05-28T08:20:42.530Z",
   "groups": [
     {
       "id": "afae4639-6f6f-4c23-afd0-91f594d61caa",
@@ -22,6 +22,16 @@
       "id": "319a3423-720a-4e39-9305-7c1e1c7c90cb",
       "title": "US001: Manage Safe Exchange Zones",
       "description": "As a Campus Administrator, I want to manage and update the list of designated \"Safe Exchange Zones\", so that students always have access to secure, pre-approved meetup locations.\nAcceptance Criteria:\nPass: The administrator can add, edit, or remove locations from the authorized Safe Exchange Zones management panel.\nPass: Updated locations immediately reflect in the selection options available to students during the chat initialization process.",
+      "groupId": "c00aef3d-c973-4ad1-ae98-5c773067456a",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu Pham"
+    },
+    {
+      "id": "148f48eb-9752-498d-a0c9-ed3da7f68804",
+      "title": "US002: Exclusive .edu Domain Registration",
+      "description": "As a Student, I want to create an account using my valid university \".edu\" email, so that I can access an exclusive campus-only marketplace.\nAcceptance Criteria:\nPass: The system allows registration only if the provided email domain ends strictly with \".edu\".\nPass: The system rejects non-.edu emails and displays an error message blocking the account creation.",
       "groupId": "c00aef3d-c973-4ad1-ae98-5c773067456a",
       "status": "todo",
       "type": "User Story",
