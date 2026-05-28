@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:27:46.481Z",
+  "savedAt": "2026-05-28T08:28:25.353Z",
   "groups": [
     {
       "id": "d6ec5e9c-2dff-4033-9b14-10a99c9647fd",
@@ -67,6 +67,36 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Phu Pham"
+    },
+    {
+      "id": "61388097-cefb-4756-b812-6be9e046da5a",
+      "title": "NFR Epic 1: The kitchen display system must be capable of operating offline for at",
+      "description": "The kitchen display system must be capable of operating offline for at least 10 minutes without crashing and must automatically resynchronize data when the connection is restored.",
+      "groupId": "c6b1fc99-e1ae-4ac0-a7b9-d767c75401ab",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "59568b6e-4e9c-4fab-b6a1-730f4098afa3",
+      "title": "NFR Epic 2: The system must process and reflect inventory changes (such as marking",
+      "description": "The system must process and reflect inventory changes (such as marking an item 'Sold Out') instantly across all active mobile app sessions to prevent invalid orders.",
+      "groupId": "c6b1fc99-e1ae-4ac0-a7b9-d767c75401ab",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "d00d4d47-a2a7-4031-8c17-7320f47b5e39",
+      "title": "NFR Epic 3: The mobile app must provide a strict, reliable filtering mechanism tha",
+      "description": "The mobile app must provide a strict, reliable filtering mechanism that completely hides menu items containing specific allergens (e.g., nuts) when selected by the user.",
+      "groupId": "c6b1fc99-e1ae-4ac0-a7b9-d767c75401ab",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
