@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:06:28.826Z",
+  "savedAt": "2026-05-28T08:07:03.842Z",
   "groups": [
     {
       "id": "afae4639-6f6f-4c23-afd0-91f594d61caa",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "\"Can I just scan the barcode with my phone camera?\" The requirement mentions scanning a barcode but lacks technical details on the subsequent system behavior. It does not specify whether the app needs to integrate with an external database (e.g., Google Books API) to automatically fetch and populate the textbook's title and author, or how the system should handle unrecognized barcodes.",
-    "ambiguity2": "",
+    "ambiguity2": "\"The app should force users to select a safe zone before they can chat.\" It is unclear how \"safe zones\" are populated and managed within the system. Does the app provide a hardcoded dropdown list of pre-approved locations managed by an administrator, or does it use location services/maps? Additionally, it is vague whether selecting the zone forms a binding meeting agreement or merely a suggestion to initialize the chat.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
