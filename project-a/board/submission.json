@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:14:17.970Z",
+  "savedAt": "2026-05-28T08:14:58.506Z",
   "groups": [
     {
       "id": "b69cb8e1-825f-422a-89c6-ee0e28d654a5",
@@ -32,6 +32,16 @@
       "id": "46cf6d72-a029-4070-aef2-5818916212b6",
       "title": "US002: Drag and Drop Calendar Planning",
       "description": "As a Student, I want to drag and drop classes into a visual calendar, so that I can easily see how my weekly schedule fits together.\nAcceptance Criteria:\nPass: The user can drag a course card from the catalog and drop it onto a valid time slot on the calendar.\nPass: The calendar visually updates immediately to show the blocked time slot.",
+      "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu Pham"
+    },
+    {
+      "id": "bf495a8f-b721-4025-84f0-0013498d4e13",
+      "title": "US003: Early Morning Class Warning",
+      "description": "As a Student, I want the app to warn me if I choose a class starting at 8:00 AM, so that I can avoid classes I might oversleep for.\nAcceptance Criteria:\nPass: The system displays a visual warning popup when a class starting at 8:00 AM or earlier is added to the schedule.\nPass: The student can choose to dismiss the warning and proceed with adding the class.",
       "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
       "status": "todo",
       "type": "User Story",
