@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:22:57.218Z",
+  "savedAt": "2026-05-28T08:23:54.297Z",
   "groups": [
     {
       "id": "afae4639-6f6f-4c23-afd0-91f594d61caa",
@@ -67,6 +67,36 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Phu Pham"
+    },
+    {
+      "id": "c09b9f5f-5e23-4ecd-a024-b3b81b1abec7",
+      "title": "NFR Epic 1: The system must restrict account creation and login access exclusively",
+      "description": "The system must restrict account creation and login access exclusively to users holding a valid \".edu\" university email address.",
+      "groupId": "c00aef3d-c973-4ad1-ae98-5c773067456a",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "16be26e7-7400-43f2-a729-527c60e8df85",
+      "title": "NFR Epic 2: The application must provide an intuitive mobile interface that allows",
+      "description": "The application must provide an intuitive mobile interface that allows users to quickly scan item barcodes using their smartphone cameras to minimize manual data entry.",
+      "groupId": "c00aef3d-c973-4ad1-ae98-5c773067456a",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "e1fa7e5b-a117-4041-a408-c59b65fe6b29",
+      "title": "NFR Epic 3: The system must enforce safety protocols by requiring users to explici",
+      "description": "The system must enforce safety protocols by requiring users to explicitly agree upon a designated \"Safe Exchange Zone\" before peer-to-peer communication features are unlocked.",
+      "groupId": "c00aef3d-c973-4ad1-ae98-5c773067456a",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
