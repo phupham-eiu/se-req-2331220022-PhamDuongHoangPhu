@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:10:23.490Z",
+  "savedAt": "2026-05-28T08:10:56.818Z",
   "groups": [
     {
       "id": "d6ec5e9c-2dff-4033-9b14-10a99c9647fd",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "\"I want students to order food on their phone while they are walking from class\". It lacks specifics regarding order timing and fulfillment. If a student orders while 20 minutes away, will the kitchen make it immediately (resulting in cold food), or does the system require the student to select a specific pick-up time slot? The workflow for managing the preparation timeline is missing.",
     "ambiguity2": "\"We want to send push notifications to students at 11:30 AM offering them a discount on the daily special\". It is unclear who the target audience for this notification is. Does the system broadcast it to all users with the app installed, or only to users currently geolocated on campus? Additionally, it does not specify if users have the option to opt-out of marketing alerts.",
-    "conflictSolution": "",
+    "conflictSolution": "The Chef requires the ability to mark items as 'Sold Out' instantly to prevent users from ordering unavailable food. However, the IT Infrastructure Team notes the kitchen Wi-Fi is terrible and the system might go offline for up to 10 minutes. If the kitchen display is offline, the Chef cannot instantly update the mobile app. Implement an automatic network-loss failsafe. If the kitchen display system loses its connection to the main server for more than 30 seconds, the mobile app should automatically pause all incoming orders and display a \"System Temporarily Offline\" message to students until the connection is restored.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
