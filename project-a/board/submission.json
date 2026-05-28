@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:12:54.561Z",
+  "savedAt": "2026-05-28T08:14:17.970Z",
   "groups": [
     {
       "id": "b69cb8e1-825f-422a-89c6-ee0e28d654a5",
@@ -22,6 +22,16 @@
       "id": "be3fb51b-8625-406b-ba97-94d3eeaf8c66",
       "title": "US001: Manual Prerequisite Override",
       "description": "As an Academic Advisor, I want to manually override the prerequisite system for a student, so that they can register for a class if they have special permission.\nAcceptance Criteria:\nPass: The system allows the advisor to successfully bypass the prerequisite block for a specific student's account.\nPass: The system automatically logs the override action, including the timestamp and advisor ID, for audit purposes.",
+      "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu Pham"
+    },
+    {
+      "id": "46cf6d72-a029-4070-aef2-5818916212b6",
+      "title": "US002: Drag and Drop Calendar Planning",
+      "description": "As a Student, I want to drag and drop classes into a visual calendar, so that I can easily see how my weekly schedule fits together.\nAcceptance Criteria:\nPass: The user can drag a course card from the catalog and drop it onto a valid time slot on the calendar.\nPass: The calendar visually updates immediately to show the blocked time slot.",
       "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
       "status": "todo",
       "type": "User Story",
