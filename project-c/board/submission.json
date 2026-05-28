@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:26:19.049Z",
+  "savedAt": "2026-05-28T08:27:07.465Z",
   "groups": [
     {
       "id": "d6ec5e9c-2dff-4033-9b14-10a99c9647fd",
@@ -42,6 +42,16 @@
       "id": "98884687-6cca-47ae-afdf-d28f41a74f76",
       "title": "US003: Allergen Menu Filtering",
       "description": "As a Student with a nut allergy, I want to filter the menu to completely hide items containing peanuts, so that I can safely choose my meal without anxiety.\nAcceptance Criteria:\nPass: When the \"No Peanuts\" filter is enabled, the menu immediately hides all items flagged with peanut ingredients (e.g., peanut butter cookies).\nPass: The filter preference is saved to the user's profile and remains active for future sessions until manually disabled.",
+      "groupId": "c6b1fc99-e1ae-4ac0-a7b9-d767c75401ab",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu Pham"
+    },
+    {
+      "id": "d7b3c232-83ca-463c-8312-a684078cc047",
+      "title": "US004: Promotional Push Notifications",
+      "description": "As a Student, I want to receive a push notification at 11:30 AM offering a discount on the daily special, so that I can save money on my lunch.\nAcceptance Criteria:\nPass: The system automatically triggers and delivers a promotional push notification precisely at 11:30 AM to active student users.\nPass: Tapping the notification opens the app directly to the daily special item page with the discount applied.",
       "groupId": "c6b1fc99-e1ae-4ac0-a7b9-d767c75401ab",
       "status": "todo",
       "type": "User Story",
