@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:16:12.266Z",
+  "savedAt": "2026-05-28T08:17:41.569Z",
   "groups": [
     {
       "id": "b69cb8e1-825f-422a-89c6-ee0e28d654a5",
@@ -67,6 +67,36 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Phu Pham"
+    },
+    {
+      "id": "7a4c1e84-9a54-4c78-a01d-1dec06a48339",
+      "title": "NFR Epic 1: The system must strictly protect sensitive student data, ensuring user",
+      "description": "The system must strictly protect sensitive student data, ensuring users cannot view other students' schedules, and must maintain an automated audit log every time an advisor manually overrides a prerequisite.",
+      "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "cebd4fcf-3959-48a8-8e19-7a1d882f14a0",
+      "title": "NFR Epic 2: The application must provide an intuitive graphical interface that all",
+      "description": "The application must provide an intuitive graphical interface that allows students to drag and drop classes into a calendar, and must include automated visual warnings for early morning classes (e.g., 8:00 AM).",
+      "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "9bceef1e-3f37-47b3-8a2f-40ec51c82110",
+      "title": "NFR Epic 3: The system must be capable of integrating and synchronizing with the u",
+      "description": "The system must be capable of integrating and synchronizing with the university's live registration database in real-time to accurately verify class capacities during the enrollment phase.",
+      "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
