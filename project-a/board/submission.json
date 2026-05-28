@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:14:58.506Z",
+  "savedAt": "2026-05-28T08:15:34.234Z",
   "groups": [
     {
       "id": "b69cb8e1-825f-422a-89c6-ee0e28d654a5",
@@ -42,6 +42,16 @@
       "id": "bf495a8f-b721-4025-84f0-0013498d4e13",
       "title": "US003: Early Morning Class Warning",
       "description": "As a Student, I want the app to warn me if I choose a class starting at 8:00 AM, so that I can avoid classes I might oversleep for.\nAcceptance Criteria:\nPass: The system displays a visual warning popup when a class starting at 8:00 AM or earlier is added to the schedule.\nPass: The student can choose to dismiss the warning and proceed with adding the class.",
+      "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu Pham"
+    },
+    {
+      "id": "796a4e05-c235-411c-9c4d-3393beb22ce6",
+      "title": "US004: Prevent Adding Full Classes",
+      "description": "As a Student registering for the upcoming semester, I want the system to block me from adding full classes, so that I don't waste time planning an impossible schedule.\nAcceptance Criteria:\nPass: The system queries the live database capacity when a student attempts to add a course for the active registration period.\nPass: The system disables the \"Add\" button and displays a \"Class Full\" message if the capacity is 0.",
       "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
       "status": "todo",
       "type": "User Story",
