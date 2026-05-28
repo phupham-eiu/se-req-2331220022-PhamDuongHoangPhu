@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:27:07.465Z",
+  "savedAt": "2026-05-28T08:27:46.481Z",
   "groups": [
     {
       "id": "d6ec5e9c-2dff-4033-9b14-10a99c9647fd",
@@ -52,6 +52,16 @@
       "id": "d7b3c232-83ca-463c-8312-a684078cc047",
       "title": "US004: Promotional Push Notifications",
       "description": "As a Student, I want to receive a push notification at 11:30 AM offering a discount on the daily special, so that I can save money on my lunch.\nAcceptance Criteria:\nPass: The system automatically triggers and delivers a promotional push notification precisely at 11:30 AM to active student users.\nPass: Tapping the notification opens the app directly to the daily special item page with the discount applied.",
+      "groupId": "c6b1fc99-e1ae-4ac0-a7b9-d767c75401ab",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu Pham"
+    },
+    {
+      "id": "249c16dd-f4c2-4b34-93d5-797470ba5cbd",
+      "title": "US005: Kitchen Display Screen Orders",
+      "description": "As a Kitchen Staff member, I want an active display screen in the kitchen, so that I can see incoming mobile orders in real-time as they are placed.\nAcceptance Criteria:\nPass: The kitchen screen automatically displays new incoming orders in chronological order without requiring a manual page refresh.\nPass: Each order card clearly shows the item details, modifications (e.g., allergies), and a countdown timer for preparation.",
       "groupId": "c6b1fc99-e1ae-4ac0-a7b9-d767c75401ab",
       "status": "todo",
       "type": "User Story",
