@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-05-28T08:09:51.738Z",
+  "groups": [
+    {
+      "id": "d6ec5e9c-2dff-4033-9b14-10a99c9647fd",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "c6b1fc99-e1ae-4ac0-a7b9-d767c75401ab",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "6fd1a19a-b4eb-4f88-a686-78785dea55ef",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "\"I want students to order food on their phone while they are walking from class\". It lacks specifics regarding order timing and fulfillment. If a student orders while 20 minutes away, will the kitchen make it immediately (resulting in cold food), or does the system require the student to select a specific pick-up time slot? The workflow for managing the preparation timeline is missing.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
