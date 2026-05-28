@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-05-28T07:59:57.819Z",
+  "groups": [
+    {
+      "id": "b69cb8e1-825f-422a-89c6-ee0e28d654a5",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "fb325e85-a43e-4d85-a3d4-f3e6681f3ac9",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "\"The system needs to stop them from even asking.\" This requirement lacks specifics on the implementation method. It does not define how the system should restrict the user. Should the UI completely hide courses for which the student lacks prerequisites, disable/grey out the \"add course\" button, or allow the selection but immediately display a warning prompt?",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
