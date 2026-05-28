@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:24:55.193Z",
+  "savedAt": "2026-05-28T08:25:39.457Z",
   "groups": [
     {
       "id": "d6ec5e9c-2dff-4033-9b14-10a99c9647fd",
@@ -26,6 +26,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Phu Pham"
+    },
+    {
+      "id": "148473fe-656c-4d25-9c38-8a36420fe9c6",
+      "title": "US002: Mobile Food Ordering",
+      "description": "As a Student, I want to order food on my mobile phone while walking from class, so that I can avoid waiting in the chaotic 20-minute cafeteria lines.\nAcceptance Criteria:\nPass: The student can browse the menu, add items to their cart, and submit a remote order via the mobile interface.\nPass: The system generates a unique order confirmation receipt and estimated pickup time upon successful payment.",
+      "groupId": "c6b1fc99-e1ae-4ac0-a7b9-d767c75401ab",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Phu Pham"
     }
   ],
