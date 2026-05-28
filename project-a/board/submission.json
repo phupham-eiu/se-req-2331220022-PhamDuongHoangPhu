@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:03:19.059Z",
+  "savedAt": "2026-05-28T08:12:54.561Z",
   "groups": [
     {
       "id": "b69cb8e1-825f-422a-89c6-ee0e28d654a5",
@@ -17,7 +17,18 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "be3fb51b-8625-406b-ba97-94d3eeaf8c66",
+      "title": "US001: Manual Prerequisite Override",
+      "description": "As an Academic Advisor, I want to manually override the prerequisite system for a student, so that they can register for a class if they have special permission.\nAcceptance Criteria:\nPass: The system allows the advisor to successfully bypass the prerequisite block for a specific student's account.\nPass: The system automatically logs the override action, including the timestamp and advisor ID, for audit purposes.",
+      "groupId": "9999aa17-42a8-4c25-b342-938bba2fb1e8",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Phu Pham"
+    }
+  ],
   "analysis": {
     "ambiguity1": "\"The system needs to stop them from even asking.\" This requirement lacks specifics on the implementation method. It does not define how the system should restrict the user. Should the UI completely hide courses for which the student lacks prerequisites, disable/grey out the \"add course\" button, or allow the selection but immediately display a warning prompt?",
     "ambiguity2": "\"drag and drop classes into a calendar to see if they fit.\" The term \"fit\" lacks a technical definition. It is unclear what conditions must be met for a class to \"fit\". Does it mean there are strictly no time schedule overlaps, that all prerequisite conditions are fulfilled, or that the schedule stays within the maximum credit load limits for the semester?",
