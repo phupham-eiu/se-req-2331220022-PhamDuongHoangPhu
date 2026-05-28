@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-05-28T08:06:28.826Z",
+  "groups": [
+    {
+      "id": "afae4639-6f6f-4c23-afd0-91f594d61caa",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "c00aef3d-c973-4ad1-ae98-5c773067456a",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "b79e1802-64d8-470e-b8cd-8af60b3b49b4",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "\"Can I just scan the barcode with my phone camera?\" The requirement mentions scanning a barcode but lacks technical details on the subsequent system behavior. It does not specify whether the app needs to integrate with an external database (e.g., Google Books API) to automatically fetch and populate the textbook's title and author, or how the system should handle unrecognized barcodes.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
