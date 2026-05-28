@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-28T08:11:38.057Z",
+  "savedAt": "2026-05-28T08:24:55.193Z",
   "groups": [
     {
       "id": "d6ec5e9c-2dff-4033-9b14-10a99c9647fd",
@@ -17,7 +17,18 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "88d3de55-a69e-4549-8e21-bdaf7902b7e4",
+      "title": "US001: Instant Sold Out Toggle",
+      "description": "As a Cafeteria Chef, I want to mark a menu item as 'Sold Out' instantly, so that students cannot continue placing orders for unavailable food.\nAcceptance Criteria:\nPass: When the Chef toggles an item to 'Sold Out' on the kitchen screen, the item is updated in real-time on the backend.\nPass: The mobile app immediately blocks students from adding that specific 'Sold Out' item to their cart.",
+      "groupId": "c6b1fc99-e1ae-4ac0-a7b9-d767c75401ab",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Phu Pham"
+    }
+  ],
   "analysis": {
     "ambiguity1": "\"I want students to order food on their phone while they are walking from class\". It lacks specifics regarding order timing and fulfillment. If a student orders while 20 minutes away, will the kitchen make it immediately (resulting in cold food), or does the system require the student to select a specific pick-up time slot? The workflow for managing the preparation timeline is missing.",
     "ambiguity2": "\"We want to send push notifications to students at 11:30 AM offering them a discount on the daily special\". It is unclear who the target audience for this notification is. Does the system broadcast it to all users with the app installed, or only to users currently geolocated on campus? Additionally, it does not specify if users have the option to opt-out of marketing alerts.",
